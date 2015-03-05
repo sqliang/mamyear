@@ -1,9 +1,9 @@
 .navbar-fixed-top .container{
-    width: 1134px;
+    width: 1000px;
 }
 .nav > li > a {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 16px;
 }
 /******************导航栏下面banner*******************/
