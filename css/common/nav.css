@@ -1,5 +1,5 @@
 .navbar-fixed-top .container{
-    width: 1000px;
+    width: 980px;
 }
 .nav > li > a {
     padding-left: 20px;
@@ -49,7 +49,7 @@
     border-bottom: 1px solid #ddd;
 }
 #main .index-info .list-info{
-    width: 1232px;
+    width: 1050px;
     margin: 0 auto;
     height: 30px;
 }
@@ -58,7 +58,7 @@
 }
 #main .index-info .list-info ul li{
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 5px;
     float: left;
     font-weight: 500;
     line-height: 30px;

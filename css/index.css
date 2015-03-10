@@ -2,36 +2,208 @@
 /*****************banner以下的内容***********************/
 #main .main-content{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 25px;
     height: auto;
 }
 .main-content .ins-and-login{
-    width: 1135px;
+    width: 1000px;
     margin: 0 auto;
     height: auto;
 }
 .ins-and-login .ins{
-    width: 750px;
+    width: 600px;
     float: left;
 }
+.ins h4,.last-news .news-title h4,.info-title h4{
+    display: inline-block;
+    color: #F07C0B;
+    font-weight: bold;
+    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+    font-size: 20px;
+}
+.ins p,.last-news .news-title .more-news a{
+    font-size: 14px;
+    text-indent: 2em;
+    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+    color: #333;
+    line-height: 25px;
+}
+.ins p a:hover{
+   color: #F07C0B;
+    text-decoration: none;
+}
 .ins-and-login .login{
-    width: 350px;
+    width: 280px;
     float: right;
 }
-.form-input{
+.login form .form-title{
+    width: 100%;
+}
+.login .form-input{
     margin-bottom: 20px;
 }
 .form-input input{
     height: 45px;
 }
+.login form .form-title a{
+    display: block;
+    width: 86px;
+    color: #428bca;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 46px;
+}
+.login form .form-title a:hover{
+    color: #F07C0B;
+    text-decoration: none;
+}
+.login form .form-title .log-left{
+    float: left;
+}
+.login form .form-title .reg-right{
+    float: right;
+    text-align: right;
+}
 .main-content .last-news{
-    width: 1135px;
-    margin: 0 auto;
+    width: 1000px;
+    margin: 20px auto;
+}
+.last-news .news-title h4{
+    width: 100px;
+    float: left;
+}
+.last-news .news-title .more-news a{
+    color: #2a6496;
+    width: 75px;
+    float: right;
+    text-align: right;
+    font-size: 16px;
+}
+.last-news .news-title .more-news a:hover{
+    color: #F07C0B;
+    text-decoration: none;
+}
+.last-news .news-list{
+    width: 100%;
+    height: auto;
+}
+.news-list .title-bar{
+    overflow: hidden;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+.topic-name,.post-time,.views{
+    display: inline-block;
+}
+.topic-name{
+    width: 580px;
+    float: left;
+    margin-left: 15px;
+}
+.post-time{
+    width: 90px;
+    float: left;
+    font-size: 14px;
+
+}
+.views{
+    width: 70px;
+    float: right;
+    font-size: 14px;
+}
+
+.news-list ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.news-list ul li{
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dotted #CCC;
+    clear: both;
+}
+.topic-name a{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 2px;
+    background: url(../img/redDot.png) no-repeat 8px 12px;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+   color: #428bca;
+}
+.topic-name a:hover{
+    text-decoration: none;
+    color: #F07C0B;
 }
 .main-content .other-info{
-    margin-top: 40px;
+    width: 1000px;
+    margin: 30px auto 0 auto;
 }
-
-
-
-
+.other-info .base-info{
+    width: 315px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+    color: #333;
+}
+.other-info .jiabin-info{
+    width: 350px;
+    float: left;
+    padding-left: 35px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.other-info .quast-road{
+    width: 243px;
+    float: right;
+}
+.info-content .base-title{
+    line-height: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.info-content p{
+    line-height: 14px;
+}
+.road-list a{
+    display: block;
+    margin-bottom: 10px;
+}
+.road-list .list-content{
+    width: 100%;
+}
+.list-content .img-border{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+}
+.list-content a img{
+    display: block;
+    width: 75px;
+    height: 70px;
+}
+.list-content a{
+    font-size: 16px;
+    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+    line-height: 25px;
+}
+.list-content a:hover{
+    color: #F07C0B;
+    text-decoration: none;
+}
