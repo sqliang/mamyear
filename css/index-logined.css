@@ -1,0 +1,12 @@
+.login .login-link{
+	margin-top: 46px;
+	width: 72%;
+}
+.login-link .link-up{
+	width: 100%;
+}
+.link-up a,.link-down a{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 20px;
+}

@@ -1,0 +1,65 @@
+.news-list{
+    width: 100%;
+    height: auto;
+}
+.news-list .title-bar{
+    overflow: hidden;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+.topic-name,.post-time,.views{
+    display: inline-block;
+}
+.topic-name{
+    width: 580px;
+    float: left;
+    margin-left: 15px;
+}
+.post-time{
+    width: 90px;
+    float: left;
+    font-size: 14px;
+
+}
+.views{
+    width: 70px;
+    float: right;
+    font-size: 14px;
+    text-align: center;
+}
+
+.news-list ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.news-list ul li{
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dotted #CCC;
+    clear: both;
+}
+.topic-name a{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 2px;
+    background: url(../img/redDot.png) no-repeat 8px 12px;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+   color: #428bca;
+}
+.topic-name a:hover{
+    text-decoration: none;
+    color: #F07C0B;
+}

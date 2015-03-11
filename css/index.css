@@ -11,7 +11,7 @@
     height: auto;
 }
 .ins-and-login .ins{
-    width: 600px;
+    width: 580px;
     float: left;
 }
 .ins h4,.last-news .news-title h4,.info-title h4{
@@ -29,12 +29,33 @@
     line-height: 25px;
 }
 .ins p a:hover{
-   color: #F07C0B;
+    color: #F07C0B;
     text-decoration: none;
 }
 .ins-and-login .login{
-    width: 280px;
+    width: 400px;
     float: right;
+}
+.login .login-link{
+    width: 95px;
+    float: right;
+    margin-top: 21px;
+}
+.login-link a {
+    display: block;
+    font-size: 16px;
+    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+    line-height: 25px;
+    padding-top: 20px;
+}
+.login-link a:hover{
+    color: #F07C0B;
+    text-decoration: none;
+}
+.login form{
+    width: 250px;
+    float: right;
+
 }
 .login form .form-title{
     width: 100%;
@@ -83,7 +104,7 @@
     color: #F07C0B;
     text-decoration: none;
 }
-.last-news .news-list{
+.news-list{
     width: 100%;
     height: auto;
 }
@@ -147,6 +168,7 @@
     text-decoration: none;
     color: #F07C0B;
 }
+
 .main-content .other-info{
     width: 1000px;
     margin: 30px auto 0 auto;
