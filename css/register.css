@@ -1,0 +1,73 @@
+body{
+	margin-top: 80px;
+	background-color: #C0D1E2;
+}
+.main{
+	width: 100%;
+}
+.main .main-content{
+	width: 800px;
+	margin: 0 auto;
+}
+.form-filedset{
+	width: 600px;
+	border: 2px solid #9ad6d2;
+	border-radius: 8px;
+	margin:  30px auto;
+	position: relative;
+	background: #EEF5EE;
+}
+.form-filedset .form-title{
+	width: 160px;
+	height: 41px;
+	padding: 8px;
+	border-radius: 8px;
+	position: absolute;
+	background: url(../img/icon_register.png) 0px 0px no-repeat;
+	left: 35px;
+	top: -20px;
+}
+.form-filedset .form-bottom{
+	/*width: 300px;*/
+	height: 122px;
+	background: url(../img/icon_register.png) 0px -94px no-repeat;
+	bottom: 0px;
+	left: 0px;
+}
+.form-filedset .form-right{
+	width: 57px;
+	height: 52px;
+	background: url(../img/icon_register.png) -277px 0px no-repeat;
+	right: 14px;
+	top: 20px;
+	position: absolute;
+}
+.height-margin{
+	width: 100%;
+	height: 10px;
+}
+.control-input{
+	height: 35px;
+	padding: 0 5px;
+	line-height: 28px;
+	width: 298px;
+}
+.control-label{
+	margin-bottom: 10px;
+	font-size: 16px;
+	display: inline-block;
+	color: #525050;;
+}
+#register-con{
+	width: 300px;
+	/*height: 400px;*/
+	margin: 60px auto;
+}
+#btn-register{
+	background: #19a1f8;
+	width: 100px;
+	height: 35px;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+	float: right;
+}
